@@ -365,7 +365,7 @@ public class AfkImageView extends ImageView {
      * 注：现在只提供了一种效果
      * @param type
      */
-    public void setAnimType(AfkImageView.AnimType type) {
+    public void setAnimType(AnimType type) {
         this.mAnimType = type;
 
         setTransitionAnimation(mAnimType);
